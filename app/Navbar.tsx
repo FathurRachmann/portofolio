@@ -5,28 +5,28 @@ const Navbar = () => {
   return (
     <nav className="bg-gray-800 text-white p-4">
       <div className="container mx-auto flex justify-between items-center">
-        <Link href="/">
-          <a className="text-xl font-bold">My Portfolio</a>
+        <Link href="/" className="text-xl font-bold">
+          Portofolio Saya
         </Link>
         <ul className="flex space-x-4">
           <li>
-            <Link href="/">
-              <a>Home</a>
+            <Link href="/" className="text-white">
+              Home
             </Link>
           </li>
           <li>
-            <Link href="/about">
-              <a>About</a>
+            <Link href="/about" className="text-white">
+              Tentang
             </Link>
           </li>
           <li>
-            <Link href="/projects">
-              <a>Projects</a>
+            <Link href="/projects" className="text-white">
+              Proyek
             </Link>
           </li>
           <li>
-            <Link href="/contact">
-              <a>Contact</a>
+            <Link href="/contact" className="text-white">
+              Kontak
             </Link>
           </li>
         </ul>

@@ -1,6 +1,7 @@
 // Suggested code may be subject to a license. Learn more: ~LicenseLog:3360626964.
 import Image from "next/image";
-import Navbar from '@/component/Navbar';
+// Import Navbar dari direktori yang benar
+import Navbar from './Navbar';
 
 export default function Home() {
   return (
